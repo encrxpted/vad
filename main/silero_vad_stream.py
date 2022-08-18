@@ -7,6 +7,9 @@ torch.set_num_threads(1)
 import torchaudio
 torchaudio.set_audio_backend("soundfile")
 
+# Attempt at using a different VAD library for streaming
+# Issue: Frame size too small and appending frames doesn't seem to work properly
+
 class Main:
 
 	def __init__(self):

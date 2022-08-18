@@ -5,6 +5,7 @@ import wave
 
 import webrtcvad
 
+# This class has utility methods to read wave files
 
 def read_wave(path):
     """Reads a .wav file.

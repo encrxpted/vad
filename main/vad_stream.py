@@ -7,6 +7,9 @@ import _thread as thread
 AGGRESSIVENESS = 2
 SAMPLE_RATE = 16000
 
+# Attempt at doing VAD on stream
+# Issue: Frame size is wrong, don't know how to convert
+
 class Main:
 
 	def __init__(self):
